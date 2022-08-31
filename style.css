@@ -1,0 +1,921 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Container Styling */
+.container{
+    width: 100%;
+}
+/* Navbar Styling */
+ .nevbar{
+    background-color:black;
+    height: 70px;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+  
+}
+.container nav ul{
+    float: right;
+}
+.container nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+} 
+
+.container nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.container nav ul li :hover{
+    text-decoration: underline;
+    color:deeppink;
+}
+.logo p{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 6%;
+    margin-top: 0px;
+}
+.logo span{
+    
+    color: deeppink;
+}
+/* Peragrapg Styling */
+/* Home  Div styling */
+.home{
+    
+    height: 100vh;
+    width: 100%;
+    display:inline-flex;
+}
+.para-section{
+    background-image: url(f.jpg);
+    background-size: cover;
+    background-color:white;
+    height: 100%;
+    width: 50%;
+   
+}
+.img-section{
+    background-image: url(f.jpg);
+    background-size: cover;
+    background-position-x: right;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.img-section img{
+    height: 30%;
+    width:30%;
+    border-radius: 150px;
+    margin: 230px 50px;  
+}
+.para-section h3{
+    text-align: center;
+    margin-top: 30%;
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 16px;
+    margin-left: 120px;
+}
+.para-section h4{
+    text-align: center;
+    margin-top:0%;
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 360px;
+   
+}
+
+.btn  {
+    background-color:deeppink;
+    margin-top: 30px;
+    margin-left: 47%;
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: 900;
+    cursor:pointer;
+}
+
+.para-section p{
+    margin-top: 5px;
+    margin-left: 500px;
+}
+/* About  Div styling */
+.about{
+
+    height: 100vh;
+    width: 100%;
+    display: block;
+    background-image: url(f.jpg);
+    background-size: cover;
+}
+.a1{
+    
+    height: 100%;
+    width: 100%;
+    display: flow-root;
+}
+
+.a1 p{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 80px;
+   
+}
+.a1 span{
+    color: deeppink;
+}
+.l1{
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 229px;
+    margin-left: 69px;
+}
+/* Skills  Div styling */
+.skills{
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(f.jpg);
+    background-size: cover;
+   
+    
+}
+div .s1{
+    box-shadow: 10px 10px gray;
+}
+div .s2{
+    box-shadow: 10px 10px gray;
+}
+div .s3{
+    box-shadow: 10px 10px gray;
+}
+div .s4{
+    box-shadow: 10px 10px gray;
+}
+.skills p{
+    text-align: center;
+    font-size: 80px;
+    margin-top: 20%;
+}
+.skills span{
+    color: deeppink;
+}
+
+.s1{
+    height: 30%;
+    width: 15%;
+    margin-top: 15%;
+    margin-left: 20%;
+    border: 4px solid black;
+    background-color: white;
+}
+.s1 img{
+    margin-left: 27%;
+}
+.s1 p{
+    font-size: 97%;
+    margin-top: revert;
+    font-weight:500;
+}
+.s1:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(193,1,198,1) 0%, rgba(0,212,255,1) 100%, rgba(247,4,193,1) 100%);
+    color: white;
+    transition: 1s;
+}
+.s1 h1{
+    text-align: center;
+}
+.b1 {
+    margin-left: 36%;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.s2{
+    height: 30%;
+    width: 15%;
+    margin-top: 15%;
+    margin-left: 1%;
+    border: 4px solid black;
+    background-color: white;
+}
+.s2 h1{
+    text-align: center;
+}
+.s2 img{
+    margin-left: 27%;
+}
+.s2 p{
+    font-size: 97%;
+    margin-top: revert;
+    font-weight:500;
+}
+.s2:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(193,1,198,1) 0%, rgba(0,212,255,1) 100%, rgba(247,4,193,1) 100%);
+    color: white;
+    transition: 1s;
+}
+.b2 {
+    margin-left: 36%;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.s3{
+    height: 30%;
+    width: 15%;
+    margin-top: 15%;
+    margin-left: 1%;
+    border: 4px solid black;
+    background-color: white;
+}
+.s3 h1{
+    text-align: center;
+}
+.s3 img{
+    margin-left: 27%;
+}
+.s3 p{
+    font-size: 97%;
+    margin-top: revert;
+    font-weight:500;
+}
+.s3:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(193,1,198,1) 0%, rgba(0,212,255,1) 100%, rgba(247,4,193,1) 100%);
+    color: white;
+    transition: 1s;
+}
+.b3 {
+    margin-left: 36%;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.s4{
+    height: 30%;
+    width: 15%;
+    border: 4px solid black;
+    margin-top: 15%;
+    margin-left: 1%;
+    background-color: white;
+}
+.s4 h1{
+    text-align: center;
+}
+.s4 img{
+    margin-left: 27%;
+}
+.s4 p{
+    font-size: 97%;
+    margin-top: revert;
+    font-weight:500;
+}
+.s4:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(193,1,198,1) 0%, rgba(0,212,255,1) 100%, rgba(247,4,193,1) 100%);
+    color: white;
+    transition: 1s;
+}
+.b4 {
+    margin-left: 36%;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.head{
+    
+    height: 19%;
+    width: 170%;
+    margin-top: -175%;
+}
+
+/* Contact  Div styling */
+.contact{
+    background-image: url(f.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display:inline-block;
+    
+}
+
+
+/* background-color: rgba(0,0,0,.75); */
+.contact-box{
+    background-color: rgba(255, 255, 255, 0.742);
+    height: 70%;
+    width: 31%;
+    margin-top: 140px;
+    margin-left: 30%;
+    border: 2px solid black;
+    
+}
+div .contact-box{
+    box-shadow:  10px 10px black;
+}
+.contact-box p{
+    padding-top: 4%;
+    padding-left: 10%;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    
+}
+.contact-box span{
+    color: deeppink;
+}
+.mail{
+    padding-left: 2%;
+    font-size:20px;
+    
+}
+.contact-box input{
+    height: 7%;
+    width: 63%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.52);
+}
+.pass{
+    padding-left: 2%;
+    font-size:20px;
+}
+div .pass{
+    box-shadow:  10px 10px gray;
+}
+div .mail{
+    box-shadow:  10px 10px gray;
+}
+.tex{
+    padding-left: 2%;
+    margin-left: 10%;
+    margin-top: 8%;
+    background-color: rgba(128, 128, 128, 0.52);
+    font-size: 20px;
+    border-radius: 3px;
+}
+div .tex{
+    box-shadow:  10px 10px gray;
+}
+.sub{
+   margin-top: 5%;
+   margin-left: 12%;
+   width: 7%;
+}
+.i{
+    animation: bounce 2s ease infinite;
+    
+}
+@keyframes bounce{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-30px); }
+    100% { transform: translateY(0); }
+}
+.n{
+    animation: Color 4s linear infinite;
+}
+@keyframes Color{
+    0%{
+      color:#A0D468;
+    }
+    
+    20%{
+      color:#4FC1E9;
+    }
+    
+    40%{
+      color:#FFCE54;
+    }
+    
+    60%{
+      color:#FC6E51;
+    }
+    
+    80%{
+      color:#ED5565;
+    }
+    
+    100%{
+      color:deeppink;
+    }
+  }
+  .link{
+    height: 30%;
+    width: 30%;
+    background-color: #ED5565;
+    display: none;
+    
+}
+  
+  /* Media Quary Section Don't Enter Other Person Here... */
+  @media only screen and (max-width: 600px){
+    
+    .container nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin-right: 40px;
+        margin-top: 30px;
+        font-size: 12px;
+    } 
+    .logo p{
+        color: white;
+        font-size: 30px;
+        font-weight: 900;
+        margin-left: 6%;
+        margin-top: 15px;
+    }
+    .home{
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        display:inline-flex;
+        
+    }
+    .img-section img{
+        height: 30%;
+        width:55%;
+        border-radius: 150px;
+        margin: 265px 50px;  
+    }
+    .para-section h3{
+        text-align: center;
+        margin-top: 100%;
+        font-weight: 900;
+        font-size: 12px;
+        margin-right: 16px;
+        margin-left: 60px;
+    }
+    .para-section h4{
+        text-align: center;
+        margin-top:0%;
+        font-weight: 900;
+        font-size: 25px;
+        margin-left: 60px;
+       
+    }
+    .btn  {
+        background-color:deeppink;
+        margin-top: 20px;
+        margin-left: 45%;
+        width: 90px;
+        height: 40px;
+        border-radius: 5px;
+        color: antiquewhite;
+        font-size: 15px;
+        font-weight: 900;
+        cursor:pointer;
+    }
+    .para-section p{
+        margin-top: 5px;
+        margin-left: 80px;
+        font-size: 8px;
+    }
+    .para-section{
+        background-image: none;
+        background-color: antiquewhite;
+        height: 65%;
+        width: 50%;
+      
+       
+    }
+    .img-section{        
+        height: 65%;
+        width: 50%;
+        background-image: none;
+        background-color: white;
+    }
+    .a1 p{
+        text-align: center;
+        margin-top: 14%;
+        font-size: 40px;
+    
+    }
+    .l1{
+        margin-top: 24px;
+        font-size: 24px;
+        text-align: inherit;
+        margin-right: 4px;
+        margin-left: 15px;
+        list-style: none;
+    }
+    .about{
+
+        height: 100vh;
+        width: 100%;
+        display: block;
+        background-image: none;
+        background-size: cover;
+    }
+    .skills{
+   
+        height: 100vh;
+        width: 100%;
+        display: inline-block;
+        background-image: none;
+        position: relative;
+    }  
+    .s1{
+        height: 30%;
+        width: 45%;
+        margin-top: 15%;
+        margin-left: 25%;
+        border: 4px solid black;
+        background-color: white;
+    }
+    .s1 img{
+        margin-left: 27%;
+    }
+    .s1 p{
+        font-size: 90%;
+        margin-top: revert;
+        font-weight:500;
+    }
+    .s1 h1 {
+        text-align: center;
+        font-size: medium;
+    }
+    .s2{
+        height: 30%;
+        width: 45%;
+        margin-top: 15%;
+        margin-left: 25%;
+        border: 4px solid black;
+        background-color: white;
+    }
+    .s2 img{
+        margin-left: 27%;
+    }
+    .s2 p{
+        font-size: 90%;
+        margin-top: revert;
+        font-weight:500;
+    }
+    .s2 h1 {
+        text-align: center;
+        font-size: medium;
+    }
+    .s3{
+        height: 30%;
+        width: 45%;
+        margin-top: 15%;
+        margin-left: 25%;
+        border: 4px solid black;
+        background-color: white;
+    }
+    .s3 img{
+        margin-left: 27%;
+    }
+    .s3 p{
+        font-size: 90%;
+        margin-top: revert;
+        font-weight:500;
+    }
+    .s3 h1 {
+        text-align: center;
+        font-size: medium;
+    }
+    .s4{
+        height: 30%;
+        width: 45%;
+        margin-top: 15%;
+        margin-left: 25%;
+        border: 4px solid black;
+        background-color: white;
+    }
+    .s4 img{
+        margin-left: 27%;
+    }
+    .s4 p{
+        font-size: 90%;
+        margin-top: revert;
+        font-weight:500;
+    }
+    .s4 h1 {
+        text-align: center;
+        font-size: medium;
+    }
+    .contact{
+        background-image:none;
+        height: 100vh;
+        width: 100%;
+        display:inline-block;
+        background-color: blanchedalmond;
+        margin-top: 25px;
+    }
+    .contact-box{
+        
+        height: 70%;
+        width: 79%;
+        margin-top: 140px;
+        margin-left: 10%;
+        border: 2px solid black;
+
+    }
+    .a1 {
+        height: 100%;
+        width: 100%;
+        display: flow-root;
+        background-color: antiquewhite;
+    }
+}
+    
+    @media only screen and (max-width: 400px){
+    
+        .container nav ul li{
+            display: inline-block;
+            list-style: none;
+            margin-right: 15px;
+            margin-top: 30px;
+            font-size: 12px;
+        } 
+        .logo p{
+            color: white;
+            font-size: 25px;
+            font-weight: 900;
+            margin-left: 6%;
+            margin-top: 19px;
+        }
+        .home{
+            background-color: black;
+            height: 112vh;
+            width: 105%;
+            display:inline-flex;
+           
+        }
+        .n{
+            width: max-content;
+        }
+            
+ 
+        .img-section img{
+            height: 30%;
+            width:87%;
+            border-radius: 150px;
+            margin: 220px 25px;  
+        }
+        .para-section h3{
+            text-align: center;
+            margin-top: 120%;
+            font-weight: 900;
+            font-size: 10px;
+            margin-right: 16px;
+            margin-left: 25px;
+        }
+        .para-section h4{
+            text-align: center;
+            margin-top:0%;
+            font-weight: 900;
+            font-size: 22px;
+            margin-left: 25px;
+           
+        }
+        .btn  {
+           
+                background-color: deeppink;
+                margin-top: 20px;
+                margin-left: 39%;
+                width: 59px;
+                height: 30px;
+                border-radius: 5px;
+                color: antiquewhite;
+                font-size: 11px;
+                font-weight: 900;
+                cursor: pointer;
+           
+        }
+        .para-section p{
+            margin-top: 5px;
+            margin-left: 50px;
+            font-size: 11px;
+            margin-right: 36px;
+            text-align: center;
+        }
+        .para-section{
+            background-image: none;
+           background-color:white;
+            height: 65%;
+            width: 50%;
+          
+           
+        }
+        .img-section{        
+            height: 65%;
+            width: 50%;
+            background-image: none;
+            background-color: white;
+        }
+        .a1 p{
+            text-align: center;
+            margin-top: 14%;
+            font-size: 40px;
+        
+        }
+        .l1{
+            margin-top: 24px;
+            font-size: 24px;
+            text-align: inherit;
+            margin-right: 4px;
+            margin-left: 15px;
+            list-style: none;
+        }
+        .about{
+    
+            height: 112vh;
+            width: 105%;
+            display: block;
+            background-image: none;
+            background-size: cover;
+        }
+        .skills{
+       
+            height: 100vh;
+            width: 105%;
+            display: inline-block;
+            background-image: none;
+            position: relative;
+        }  
+        .b1 {
+            margin-left: 31%;
+            margin-top: 10px;
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            font-size: larger;
+            background-color: black;
+            color: blanchedalmond;
+            border-radius: 5%;
+            cursor: pointer;
+            display: none;
+        }
+        .s1{
+            height: 30%;
+            width: 58%;
+            margin-top: 25%;
+            margin-left: 20%;
+            border: 4px solid black;
+            background-color: white;        
+         }
+        .s1 img{
+            margin-left: 27%;
+        }
+        .s1 p{
+            font-size: 70%;
+            margin-top: revert;
+            font-weight:500;
+        }
+        .s1 h1 {
+            text-align: center;
+            font-size: medium;
+        }
+        .s2{
+            height: 30%;
+            width: 58%;
+            margin-top: 15%;
+            margin-left: 20%;
+            border: 4px solid black;
+            background-color: white;        
+        }
+        .s2 img{
+            margin-left: 27%;
+        }
+        .s2 p{
+            font-size: 70%;
+            margin-top: revert;
+            font-weight:500;
+        }
+        .s2 h1 {
+            text-align: center;
+            font-size: medium;
+        }
+        .s3{
+            height: 30%;
+            width: 58%;
+            margin-top: 15%;
+            margin-left: 20%;
+            border: 4px solid black;
+            background-color: white;        
+        }
+        .s3 img{
+            margin-left: 27%;
+        }
+        .s3 p{
+            font-size: 70%;
+            margin-top: revert;
+            font-weight:500;
+        }
+        .s3 h1 {
+            text-align: center;
+            font-size: medium;
+        }
+        .s4{
+            height: 30%;
+            width: 58%;
+            margin-top: 15%;
+            margin-left: 20%;
+            border: 4px solid black;
+            background-color: white;        
+        }
+        .s4 img{
+            margin-left: 27%;
+        }
+       
+        .s4 h1 {
+            text-align: center;
+            font-size: medium;
+        }
+        .contact{
+            background-image:none;
+            height: 112vh;
+            width: 105%;
+            display:inline-block;
+            background-color: blanchedalmond;
+            margin-top: 70px;
+        }
+        .contact-box{
+            
+            height: 65%;
+            width: 85%;
+            margin-top: 140px;
+            margin-left: 7%;
+            border: 2px solid black;
+    
+        }
+        .contact-box input {
+            height: 7%;
+            width: 83%;
+            margin-left: 7%;
+            margin-top: 5%;
+            border-radius: 3px;
+            background-color: rgba(128, 128, 128, 0.52);
+        }
+        .tex {
+            padding-left: 2%;
+            margin-left: 7%;
+            margin-top: 8%;
+            background-color: rgba(128, 128, 128, 0.52);
+            font-size: 20px;
+            border-radius: 3px;
+        }
+        .contact-box p {
+            padding-top: 4%;
+            padding-left: 7%;
+            font-size: 50px;
+            font-weight: 700;
+            color: black;
+        }
+        .a1 {
+            height: 100%;
+            width: 100%;
+            display: flow-root;
+            background-color: antiquewhite;
+        }
+    
+
+    }   
